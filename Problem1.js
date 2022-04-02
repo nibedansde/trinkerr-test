@@ -34,4 +34,5 @@ var backBinary=function(num1,num2){
     }
     console.log(output)
 }
+
 backBinary(101,11111)
