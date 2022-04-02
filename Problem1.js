@@ -21,7 +21,7 @@ var backBinary=function(num1,num2){
     var output="";
     for(let i=decinum1;i<=decinum2;i++){
         let flag=0;
-        for(let j=2;j<1;j++){
+        for(let j=2;j<i;j++){
             if(i%j==0){
                 flag=1;
                 break;
